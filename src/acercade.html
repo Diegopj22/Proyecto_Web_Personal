@@ -85,16 +85,6 @@
                 <canvas id="skillsChart"></canvas>
             </div>
         </section>
-
-        <section id="proyectos">
-            <h2>Proyectos Destacados</h2>
-            <p>Aquí hay algunos proyectos en los que he trabajado:</p>
-            <ul>
-                <li>Proyecto A: Análisis de datos de ventas para una empresa minorista.</li>
-                <li>Proyecto B: Desarrollo de un modelo predictivo para la demanda de productos.</li>
-                <li>Proyecto C: Visualización interactiva de datos en tiempo real.</li>
-            </ul>
-        </section>
     </main>
     <footer>
         <p>&copy; 2023 Diego. Todos los derechos reservados.</p>
@@ -108,12 +98,16 @@
             data: {
                 labels: ['Analítica de datos', 'Machine Learning', 'Python', 'Visualización'],
                 datasets: [{
-                    label: 'Nivel de Habilidad',
                     data: [90, 80, 85, 75],
                     backgroundColor: ['#4CAF50', '#2196F3', '#FFC107', '#FF5722'],
                 }]
             },
             options: {
+                plugins: {
+                    legend: {
+                        display: false // Se desactiva la leyenda
+                    }
+                },
                 scales: {
                     y: {
                         beginAtZero: true,
@@ -125,5 +119,8 @@
     </script>
 </body>
 </html>
+
+
+
 
 
