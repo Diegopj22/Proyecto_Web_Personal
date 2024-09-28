@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #2e373f; /* Color grisáceo azulado más equilibrado */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.0em; /* Aumenta el tamaño de la fuente */
+}
+
+h2 {
+    font-size: 2.5em; /* Aumenta el tamaño del título PORTADA */
+    margin: 0; /* Elimina el margen para un mejor ajuste */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+iframe {
+    width: 80%; /* Aumenta el ancho del video */
+    height: 60vh; /* Ajusta la altura del video */
+    margin-top: 20px;
+    border: none; /* Elimina el borde del iframe */
+}
